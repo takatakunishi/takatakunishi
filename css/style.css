@@ -1,0 +1,359 @@
+@charset "utf-8";/*文字コード指定*/
+
+
+
+body{
+    font-family: "Yu mincho",YuMincho,serif;
+}
+
+
+header{
+    border-top: 10px solid #511717;
+}
+
+header h1{
+    margin: 50px 0 30px 0;
+    text-align: center;
+}
+
+header nav ul{
+   /* position:fixed;
+    top: 0;
+    left: 0;*/
+    width:940px;
+    padding-left: 0;
+    margin: 0 auto 30px auto;
+    list-style-type: none;
+}
+
+header nav ul li{
+    width: 155px;
+    margin-right: 2px;
+    float: left;
+    text-align: center;
+}
+
+header nav ul li:last-child{
+    margin-right: 0;
+}
+
+.clearfix:after{
+    content:"";
+    display:block;
+    clear:both;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    background-color: #511717;
+    color: #fff;
+    padding: 10px 0;
+    display: block;
+}
+
+header nav ul li a:hover, header nav ul li a:active, header nav ul li.current a{
+    background-color: #000;
+}
+
+
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+
+#main_visual{
+    margin-bottom: 30px;
+}
+
+#main_content{
+    width: 600px;
+    float: left;
+}
+
+
+
+#banner{
+    width: 300px;
+    float: right;
+}
+
+#banner ul{
+    margin: 0;
+    padding: 0;
+     list-style-type: none;
+}
+
+#banner ul li{
+    margin-bottom: 20px;
+}
+
+
+#topic_path{
+    padding-left:0;
+    /*ol要素は左パディングが設定されているので初期化する*/
+}
+
+#topic_path li{
+    list-style-type: none;
+    display: inline;
+    font-size: 80%;
+}
+
+#topic_path li:after{
+    padding: 0 10px;
+    content: "\003E"
+}
+
+#topic_path li:last-child:after{
+    content: none;
+}
+
+main a:link,main a:visited{
+    color: #511717
+}
+
+main h1{
+    border-left: 10px solid #511717;
+    border-bottom: 1px solid #511717;
+    padding: 5px 10px;
+    margin-bottom: 30px;
+    font-size: 1.8em;
+}
+
+main h2{
+    font-size: 1.5em;
+    text-align: center;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+
+/*about*/
+.lead2{
+    line-height: 2em;
+    text-align: center;
+}
+
+.box{
+    width: 300px;
+    margin-right: 20px;
+    float: left;
+}
+
+.box:last-child{
+    margin-right: 0;
+}
+
+.box img{
+    width: 300px;
+    height: auto;
+    display: block;
+    border: 5px solid #fff;
+    box-sizing: border-box;
+    /*幅の算出にボーダーをふくめる*/
+    box-shadow: 0 0 8px rgba(0,0,0,0.22);
+    /*影を付ける*/
+}
+
+p.photo{
+    margin-bottom: 30px;
+}
+
+.box h3{
+    text-align: center;    
+} 
+
+#inside p{
+    font-size: 0.9em;
+    line-height: 1.8;
+}
+
+table{
+    border-collapse:collapse;
+    margin: 0 auto 30px;
+    border: 1px solid #813737;
+}
+
+table th, table td{
+    padding: 10px 20px;
+}
+
+table th{
+    border-right: 1px solid #813737;
+}
+
+table tr:nth-child(odd){
+    /*oddは奇数evenは偶数,()のなかの数値で指定を変えていく*/
+    background-color: #E1CFBA;
+}
+
+
+footer{
+    background-color: #511717;
+    color: #fff;
+    padding: 30px 0;
+    text-align: center;
+    
+}
+
+#home h2{
+    
+    text-align: left;
+      border-left: 10px solid #511717;
+    border-bottom: 1px solid #511717;
+    padding: 5px 10px;
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-size: 1.5em;
+}
+
+#home h2:before,#home h2:after{
+    border-top: none;
+}
+
+
+.page_top{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    
+}
+
+.page_top a{
+    padding-top: 4px;
+    border-top: 4px solid #511717;
+}
+
+.page_top a:link,.page_top a:visitedt{
+    color: #511717
+        text-decoration:none;
+}
+
+.page_top a:before{
+    content: "↑";
+}
+
+.lead{
+    line-height: 1.8em;
+    margin-bottom: 3em;
+    font-size: 110%;
+}
+
+#news dl, #info dl{
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+
+#news dt, #info dt,#news dd, #info dd{
+    line-height: 1.5;
+}
+
+#news dt, #info dt{
+    width: 8em;
+    float: left;
+}
+
+#news dd, #info dd{
+    margin-left: 8em;
+}
+
+/*contact*/
+#contact form{
+    width: 820px;
+    margin: 0 auto;
+}
+
+#contact dl dt,#contact dl dd{
+    line-height: 2em;
+    margin-left: 0;
+}
+
+#contact dl dt{
+    width: 380px;
+    float: left;
+    text-align: right;
+    padding:10px;
+}
+
+#contact dl dd{
+    width: 400px;
+    float: right;
+    padding: 10px;
+}
+
+#contact input[type="text"],#contact input[type="email"],#contact textarea{
+    padding: 5px;
+    width: 300px;
+}
+
+#contact textarea{
+    height:5em;
+}
+
+#contact .button{
+    text-align: center;
+}
+
+#contact input[type="submit"]{
+    background-color: #511717;
+    color: #fff;
+    padding: 10px 30px;
+    font-family: "Yu Gothic",YuGothic, sans-serif;
+    border: 1px solid #511717;
+    cursor: pointer;
+}
+
+
+footer ul{
+    z-index: 0; 
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+footer ul li{
+    display: inline;
+    margin: 0 10px;
+}
+
+footer ul li a{
+    color: #fff;
+}
+
+footer ul li a:link,footer ul li a:visited{
+    text-decoration: none;
+        
+}
+
+footer ul li a:hover,footer ul li a:active{
+    text-decoration: underline;
+}
+
+@media screen and(max-width: 767px){
+    img{
+        max-width: 100%;
+        height: auto;
+    }
+    header, main,#main_content,#banner,header nav ul{
+        width: 100%;
+    }
+    header nav ul li{
+        margin-right: 0;
+        width: 50%;
+        border: 1px solid #fff;
+        box-sizing: border-box;
+    }
+    main{
+        padding: 0 15ox;
+        box-sizing: border-box;
+    }
+    #banner{
+        float: none;
+        text-align: center;
+    }
+    footer{
+        padding-top:20px; 
+    }
+    footer ul{
+        display: none;
+    }
+}
