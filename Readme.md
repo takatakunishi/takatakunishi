@@ -1,6 +1,6 @@
 # Basic Information
 - Name: 西川昂志
-- Organization: 公立はこだて未来大学 システム情報科学部 高度ICTコース(2022/2/16 現在、院進予定)
+- Organization: 公立はこだて未来大学(大学院前期) システム情報科学研究科 高度ICT領域 (2022/5/21 現在)
 - From: 北海道 (帯広 => 函館)
 
 # Information Blog, etc.
