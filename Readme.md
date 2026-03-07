@@ -1,7 +1,6 @@
 # Basic Information
 - Name: 西川昂志
-- Organization: 公立はこだて未来大学(大学院前期) システム情報科学研究科 高度ICT領域 (2022/5/21 現在)
-- From: 北海道 (帯広 => 函館)
+- From: 北海道 (帯広 => 函館 => 関東のどこか)
 
 # Information Blog, etc.
 - [Qiita](https://qiita.com/takashinishikawapub/)
