@@ -57,11 +57,3 @@ URL: https://creatorsfantasyfpn.com/createrworkshop/<br/>
 - [Plase Place: GitHub](https://github.com/takatakunishi/PrasePlace)
 </div>
 </details>
-
-# Git Stats
-<a href="https://github.com/anuraghazra/github-readme-stats">
-  <img align="left" src="https://github-readme-stats.vercel.app/api?username=takatakunishi&count_private=true&show_icons=true" />
-</a>
-<a href="https://github.com/anuraghazra/github-readme-stats">
-  <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=takatakunishi&hide=TeX,CSS,HTML&langs_count=10" />
-</a>
