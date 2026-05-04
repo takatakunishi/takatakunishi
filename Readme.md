@@ -39,21 +39,3 @@ PV：https://youtu.be/aPUW6i975N8<br/>
 URL：[FocusBox_Light版 (サーバー処理が必要な部分を削除しました)](https://eyehelpmanager.web.app/)<br/>
 Overview：[ブログ]U-22プログラミングコンテスト参加についてまとめた記事<br/>
 その他: [詳細資料](https://docs.google.com/document/d/1swD0VkZdSIeA8Z4DxtYOLiX4VxEL8cL3ag2XqhtaxKA/edit?usp=sharing)
-
-### My Products
-- Creaters Workshop<br/>
-Produced: 2020/2<br/>
-URL: https://creatorsfantasyfpn.com/createrworkshop/<br/>
-注意: アカウント作成が必要となります。普段使いのパスワードなどは使用しないでください。
-
-<details>
-<summary>その他作品</summary><div>
-
-### Team Products
-- [funput: GitHub](https://github.com/ICT-FUNney/team2-funput-Client2020)
-
-### My Products
-- [fun-uploader: URL](https://fun-uploader.web.app/)
-- [Plase Place: GitHub](https://github.com/takatakunishi/PrasePlace)
-</div>
-</details>
